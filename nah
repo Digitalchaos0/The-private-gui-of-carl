@@ -1,13 +1,13 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "The private gui of Carl", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Carl's Gui", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
-Name = <Made by Carl> - The name of the UI.
+Name = <The private gui of Carl> - The name of the UI.
 HidePremium = <false> - Whether or not the user details shows Premium status or not.
 SaveConfig = <true> - Toggles the config saving in the UI.
 ConfigFolder = <vip> - The name of the folder where the configs are saved.
 IntroEnabled = <false> - Whether or not to show the intro animation.
-IntroText = <NottoGay> - Text to show in the intro animation.
+IntroText = <RIP_Magma is gay> - Text to show in the intro animation.
 IntroIcon = <c00lkid> - URL to the image you want to use in the intro animation.
 Icon = <false> - URL to the image you want displayed on the window.
 CloseCallback = <5> - Function to execute when the window is closed.
@@ -31,8 +31,8 @@ local Section = Tab:AddSection({
 --[[
 Name = <hack with this xd> - The name of the section.
 ]]OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "By Rip_magma127392 enjoy!",
+	Name = "THE PRIVATE GUI OF CARL!",
+	Content = "By Carl, enjoy!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
