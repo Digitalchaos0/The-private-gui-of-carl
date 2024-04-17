@@ -22,7 +22,7 @@ local Tab = Window:MakeTab({
 --[[
 Name = <Gui of jump over 100 walls> - The name of the tab.
 Icon = <158118263> - The icon of the tab.
-PremiumOnly = <true> - Makes the tab accessible to Sirus Premium users only.
+PremiumOnly = <false> - Makes the tab accessible to Sirus Premium users only.
 ]]
 local Section = Tab:AddSection({
 	Name = "Section"
@@ -38,8 +38,8 @@ Name = <hack with this xd> - The name of the section.
 })
 
 --[[
-Title = <Look here> - The title of the notification.
-Content = <hi> - The content of the notification.
+Title = <Hola> - The title of the notification.
+Content = <RIP_Magma is gay> - The content of the notification.
 Image = <7> - The icon of the notification.
 Time = <10> - The duration of the notfication.
 ]]
@@ -227,13 +227,27 @@ Tab:AddButton({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Gui",
+	Name = "Blox fruits redz hub",
 	Callback = function()
       		print("button pressed")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe"))()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-      end 
-     }) 
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+      end
+     })
+
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+Tab:AddButton({
+	Name = "Bedwars",
+	Callback = function()
+      		print("button pressed")
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+      end
+     })
+
+
           local Tab = Window:MakeTab({
 	Name = "The end.",
 	Icon = "rbxassetid://4483345998",
@@ -246,4 +260,6 @@ Tab:AddButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Admin/main/source"))()
       end
      })
+
+
          
